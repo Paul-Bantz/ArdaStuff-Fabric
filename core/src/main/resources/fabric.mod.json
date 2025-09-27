@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}-${mod_environment}",
+  "version": "${mod_version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "authors": [
+    { "name": "JayemCeekay", "contact": { "homepage":  "https://github.com/JayemCeekay" }}
+  ],
+  "contributors": [
+    { "name":  "r3signed", "contact": { "homepage":  "https://github.com/r3signed" }},
+    { "name":  "JakePost", "contact": { "homepage":  "https://github.com/JakePost" }}
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ardastuff/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "com.ardacraft.ardastuff.ArdaStuff"
+    ]
+  },
+  "mixins": [
+    "ardastuff.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "${minecraft_version}",
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*"
+  }
+}
