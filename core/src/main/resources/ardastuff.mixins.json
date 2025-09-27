@@ -4,6 +4,9 @@
   "package": "com.ardacraft.ardastuff.mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "EnderPearlEntityMixin",
+    "FluidStateMixin",
+    "ServerPlayerEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
